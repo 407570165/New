@@ -179,3 +179,12 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 }
+  /*Switch sw = findViewById(R.id.switch1);
+        sw.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                isNext=isChecked;
+                TextView ty=findViewById(R.id.type);
+                ty.setText(isNext?getString(R.string.Name):getString(R.string.word));
+            }
+        });*/
